@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* Documento index*/
+
+body {
+	background-color: #000 !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+
+body::before {
+
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+	z-index: -1;
+	background: url(img/fundo3.png);
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+
+
+.espacamento {
+
+	position: absolute;
+	width: 600px;
+	height: 680px;
+	left: 822px;
+	top: 128px;
+
+}
+
+/* Main */
+.main {
+	position: absolute;
+	width: 1920px;
+	height: 936px;
+	left: 0px;
+	top: 0px;
+}
+
+/* header */
+.header {
+	position: absolute;
+	width: 447px;
+	height: 69px;
+	left: 724px;
+	top: 148px;
+}
+
+/* Pré-estreia: zumbilândia 2 */
+
+.preestreia {
+	position: absolute;
+	width: 447px;
+	height: 69px;
+	left:  711px;
+	top: 148px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+/* titleBackground */
+
+.title {
+	position: absolute;
+	width: 447px;
+	height: 69px;
+	left: 661px;
+	top: 148px;
+
+	/* OmeleteColor */
+
+	background: linear-gradient(0deg, #FFC90D, #FFC90D), url(omelete-logo-coluna.jpg);
+}
+
+/* imagePoster */
+
+.poster {
+	position: absolute;
+    width: 413px;
+    height: 680px;
+    left: 344px;
+    top: 128px;
+    background: url(zombie2_vean.jpg);
+    border-radius: 8px 0px 0px 8px;
+}
+
+/* titleShadow */
+
+.titleshadow {
+	position: absolute;
+	width: 361px;
+	height: 67px;
+	left: 757px;
+	top: 159px;
+
+	background: #CEA000;
+}
+
+/* content */
+
+.content {
+	position: absolute;
+	width: 1920px;
+	height: 936px;
+	left: 0px;
+	top: 0px;
+}
+
+/* text */
+
+.text1 {
+	position: absolute;
+	width: 560px;
+	height: 143px;
+	left: 776px;
+	top: 240px;
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: justify;
+}
+
+/* text */
+
+.text5 {
+	position: absolute;
+	width: 560px;
+	height: 542px;
+	left: 775px;
+	top: 232px;
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+/* text */
+.text2 {
+	position: absolute;
+	width: 560px;
+	height: 143px;
+	left: 738px;
+	top: 409px;
+	padding: 0px;
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: justify;
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* text */
+.text3 {
+	position: absolute;
+	width: 560px;
+	height: 37px;
+	left: 777px;
+	top: 552px;
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: justify;
+}
+
+/* iconeOvo */
+
+.iconeovo {
+	position: absolute;
+	width: 21px;
+	height: 33px;
+	left: 776px;
+	top: 624px;
+
+}
+
+/* OmeleteColor */
+.omeletecolor {
+
+	background: linear-gradient(0deg, #FFC90D, #FFC90D), url(omelete-logo-coluna.jpg);
+}
+
+/* text */
+
+.text4 {
+	position: absolute;
+	width: 513px;
+	height: 38px;
+	left: 805px;
+	top: 610px;
+
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 15px;
+	text-align: justify;
+}
+
+/* boxBackground */
+
+.boxbackground {
+	position: absolute;
+	width: 599px;
+	height: 680px;
+	left: 757px;
+	top: 128px;
+
+	background: #FFFFFF;
+	border-radius: 0px 8px 8px 0px;
+}
+
+/* btnAmarelo */
+.btnamarelo {
+
+	position: absolute;
+	width: 226px;
+	height: 50px;
+	left: 777px;
+	top: 738px
+}
+
+/* btnPreto */
+
+.btnpreto {
+	position: absolute;
+	width: 294px;
+	height: 50px;
+	left: 1041px;
+	top: 738px;
+}
+
+/* Rectangle 23 */
+
+.rectangle23 {
+	position: absolute;
+	width: 1933px;
+	height: 723px;
+	left: 0px;
+    top: 0px;
+
+}

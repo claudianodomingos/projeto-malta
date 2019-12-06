@@ -1,0 +1,459 @@
+@charset "utf-8";
+
+/* Documento formulário*/
+
+
+body {
+    background-color: #000 !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+    background: url(img/fundo3.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.textfor {
+    position: absolute;
+    width: 513px;
+    height: 58px;
+    left: 879px;
+    top: 630px;
+
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    font-family: sans-serif;
+
+    color: #000000;
+}
+
+/* btnPreto */
+
+.btnpretof {
+    position: absolute;
+    width: 294px;
+    height: 50px;
+    left: 975px;
+    top: 738px;
+}
+
+/* iconeOvof */
+
+.iconeovof {
+    position: absolute;
+    width: 21px;
+    height: 33px;
+    left: 842px;
+    top: 649px;
+}
+
+
+/* OmeleteColor */
+.omeletecolor {
+    background: linear-gradient(0deg, #FFC90D, #FFC90D), url(omelete-logo-coluna.jpg);
+}
+
+/* boxBackground */
+
+.boxbackgroundf {
+    position: absolute;
+    width: 599px;
+    height: 680px;
+    left: 822px;
+    top: 128px;
+    padding: 0px 10px;
+
+    background: #FFFFFF;
+    border-radius: 0px 8px 8px 0px;
+}
+
+/* imagePoster */
+
+.imageposter {
+    position: absolute;
+    width: 413px;
+    height: 680px;
+    left: 409px;
+    top: 128px;
+
+    background: url(zombie2_vean.jpg);
+    border-radius: 8px 0px 0px 8px;
+}
+
+/* Rectangle 22 */
+.rectangle22 {
+    position: absolute;
+    font-size: larger;
+    width: 17px;
+    height: 17px;
+    left: 845px;
+    top: 568px;
+
+}
+
+/* OmeleteColor */
+.omeletecolorradio {
+    background: linear-gradient(0deg, #FFC90D, #FFC90D), url(omelete-logo-coluna.jpg);
+    border-radius: 50px;
+}
+
+/* text */
+
+.texts {
+    position: absolute;
+    width: 91px;
+    height: 50px;
+    left: 879px;
+    top: 552px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 21 */
+.rectangle21 {
+    position: absolute;
+    font-size: larger;
+    width: 25px;
+    height: 25px;
+    left: 990px;
+    top: 564px;
+
+    border-radius: 50px;
+}
+
+/* text */
+
+.textn {
+    position: absolute;
+    width: 111px;
+    height: 50px;
+    left: 1028px;
+    top: 552px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* text */
+
+.textila {
+    position: absolute;
+    width: 234px;
+    height: 24px;
+    left: 842px;
+    top: 528px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 18 */
+
+.rectangle18 {
+
+    position: absolute;
+    font-size: larger;
+    width: 199px;
+    height: 50px;
+    left: 842px;
+    top: 458px;
+
+    border-radius: 8px;
+}
+
+/* text */
+
+.textcel {
+
+    position: absolute;
+    width: 199px;
+    height: 24px;
+    left: 842px;
+    top: 434px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 19 */
+.rectangle19 {
+    position: absolute;
+    font-size: larger;
+    width: 346px;
+    height: 50px;
+    left: 1056px;
+    top: 458px;
+
+    border-radius: 8px;
+}
+
+/* text */
+
+.textem {
+    position: absolute;
+    width: 62px;
+    height: 24px;
+    left: 1056px;
+    top: 434px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 15 */
+
+.rectangle15 {
+    position: absolute;
+    font-size: larger;
+    width: 199px;
+    height: 50px;
+    left: 421px;
+    top: 182px;
+
+    border-radius: 8px;
+}
+
+/* text */
+
+.textrg {
+
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 841px;
+    top: 340px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 16 */
+.rectangle16 {
+    position: absolute;
+    font-size: larger;
+    width: 199px;
+    height: 50px;
+    left: 1056px;
+    top: 364px;
+
+    border-radius: 8px;
+}
+
+/* text */
+
+.textdn {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 1056px;
+    top: 340px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 17 */
+
+.rectangle17 {
+
+    position: absolute;
+    font-size: larger;
+    width: 146px;
+    height: 56px;
+    left: 1269px;
+    top: 364px;
+    padding: 0px 11px;
+    border-radius: 8px;
+}
+
+/* text */
+
+.textuf {
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 1269px;
+    top: 340px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+/* Rectangle 14 */
+
+.rectangle14 {
+    position: absolute;
+    width: 560px;
+    height: 50px;
+    left: 842px;
+    top: 270px;
+
+    left: 842px;
+    top: 270px;
+    padding: 2px 6px;
+    font-size: larger;
+
+    border-radius: 8px;
+
+
+}
+
+/* text */
+
+.textnc {
+    position: absolute;
+    width: 560px;
+    height: 24px;
+    left: 842px;
+    top: 246px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    font-family: sans-serif;
+
+    color: #000000;
+}
+
+/* titleBackground */
+
+.titlef {
+    position: absolute;
+    width: 447px;
+    height: 69px;
+    left: 724px;
+    top: 148px;
+
+    /* OmeleteColor */
+
+    background: linear-gradient(0deg, #FFC90D, #FFC90D), url(omelete-logo-coluna.jpg);
+}
+
+/* Pré-estreia: zumbilândia 2 */
+
+.preestreiaf {
+    position: absolute;
+    width: 447px;
+    height: 69px;
+    left: 777px;
+    top: 148px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+/* titleShadow */
+
+.titleshadowf {
+    position: absolute;
+    width: 361px;
+    height: 67px;
+    left: 822px;
+    top: 159px;
+
+    background: #CEA000;
+}
+
+/* Rectangle 23 */
+
+.rectangle23 {
+    position: absolute;
+    width: 1920px;
+    height: 936px;
+    left: 0px;
+    top: 0px;
+
+}
